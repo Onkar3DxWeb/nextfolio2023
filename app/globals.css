@@ -104,4 +104,10 @@
   #portfolio{
     background-color:#fff;
   }
+.\32xl\:basis-4\/5{
+  flex-basis: 55% !important;
+  }
+.landscape\:my-auto{
+  width:25% !important;
+}
 }
