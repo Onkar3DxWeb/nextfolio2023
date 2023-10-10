@@ -3,7 +3,6 @@
 import developerCodingImage from "@/public/developerCoding.svg";
 import Image from "next/image";
 import Link from "next/link";
-import Typical from "react-typical";
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -100,17 +99,7 @@ export default function Hero() {
               Hi, I&apos;m <span className="text-primary-base">Onkar Hirgude</span>.
             </h2>
             <h1 className="font-semibold text-5xl/[1.15] xs:text-[3.5rem]/[1.15] lg:text-7xl/[1.15] xl:text-6xl/[1.15] 2xl:text-[5.5rem]/[1.15] 3xl:text-8xl/[1.2] dpr-lg:text-6xl/[1.15] dpr-xl:text-[3.5rem]/[1.15]">
-            Freelance <br/>
-            <Typical
-            steps={[
-              "Developer",
-              3000,
-              "Designer",
-              3000,
-            ]}
-            loop={Infinity}
-            wrapper="span"
-          />
+            Freelance Developer 
             </h1>
             <p className="text-gray-600">
             Crafting Unique and Intuitive Web Wonders with WordPress, Shopify, and Modern Tech!
